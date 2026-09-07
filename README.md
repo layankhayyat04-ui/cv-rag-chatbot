@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=38&amp;duration=3200&amp;pause=1200&amp;color=38BDF8&amp;background=0D1117&amp;center=true&amp;vCenter=true&amp;width=1000&amp;height=150&amp;lines=CHAT+WITH+MY+CV;Your+questions.+My+experience.;Find+the+passage+behind+the+answer." alt="Chat with My CV — animated project title" />
+<img width="100%" src="https://raw.githubusercontent.com/layankhayyat04-ui/cv-rag-chatbot/main/assets/banner.svg" alt="CV RAG Chatbot banner" />
 
 **A CV you can query. Source text you can inspect.**
 
@@ -8,10 +8,10 @@ A local document-retrieval demo exploring the foundations of RAG.<br/>
 Built with Python, ChromaDB, and local embeddings.
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/ChromaDB-Vector_Store-0E7490?style=for-the-badge" alt="ChromaDB vector store" />
-  <img src="https://img.shields.io/badge/ONNX-Local_Embeddings-005CED?style=for-the-badge&amp;logo=onnx&amp;logoColor=white" alt="ONNX local embeddings" />
-  <img src="https://img.shields.io/badge/scikit--learn-TF--IDF-F7931E?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn TF-IDF fallback" />
+  <img src="https://img.shields.io/badge/ONNX-Local_Embeddings-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX local embeddings" />
+  <img src="https://img.shields.io/badge/scikit--learn-TF--IDF-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn TF-IDF fallback" />
 </p>
 
 <p>
@@ -54,7 +54,7 @@ Ask about experience, technical skills, education, or projects. The app searches
 flowchart LR
     A["CV text"] --> B["Overlapping chunks"]
     B --> C["Local embeddings"]
-    C --> D[("ChromaDB")]
+    C --> D["ChromaDB"]
     E["Your question"] --> F["Same embedding model"]
     F --> G["Similarity search"]
     D --> G
@@ -169,13 +169,13 @@ Keep `0 <= overlap < chunk_size` when changing the chunking settings.
 
 ```text
 cv-rag-chatbot/
-├── app.py              # Chunking, embeddings, indexing, and terminal Q&A
+├── app.py               # Chunking, embeddings, indexing, and terminal Q&A
 ├── data/
-│   └── cv.txt          # Source document
+│   └── cv.txt           # Source document
 ├── docs/
-│   ├── banner.png      # Existing project artwork
-│   └── demo.png        # Existing terminal demo
-├── requirements.txt    # Python dependencies
+│   ├── banner.png       # Existing project artwork
+│   └── demo.png         # Existing terminal demo
+├── requirements.txt     # Python dependencies
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -206,7 +206,7 @@ Ideas for a future version:
 
 Explore more: [BMS Dashboard](https://github.com/layankhayyat04-ui/bms-dashboard) · [E-commerce SQL & Python Analysis](https://github.com/layankhayyat04-ui/ecommerce-sql-python-analysis)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=14&amp;duration=2500&amp;pause=1800&amp;color=2DD4BF&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Chunk.+Embed.+Retrieve.+Inspect." alt="Chunk. Embed. Retrieve. Inspect." />
+<img src="https://img.shields.io/badge/Chunk-2DD4BF?style=flat-square"/> <img src="https://img.shields.io/badge/Embed-2DD4BF?style=flat-square"/> <img src="https://img.shields.io/badge/Retrieve-2DD4BF?style=flat-square"/> <img src="https://img.shields.io/badge/Inspect-2DD4BF?style=flat-square"/>
 
 [MIT licensed](LICENSE)
 
