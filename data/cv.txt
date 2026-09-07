@@ -1,0 +1,60 @@
+Layan Khayyat
+Business Information Technology Student ∙ Data Analytics & Business Intelligence
+Amman, Jordan ∙ +962 79 883 4874 ∙ layan.alkhayyat@outlook.com
+linkedin.com/in/layan-khayyat ∙ layan-portfolio-axd.pages.dev
+
+PROFESSIONAL SUMMARY
+Business Information Technology student at Princess Sumaya University for Technology (PSUT), Honor List, targeting
+Data Analyst, Business Intelligence, and Business Analyst roles. Hands on experience with Power BI, SQL, DAX, Power
+Query, Excel, and Python, covering the full analytics lifecycle from data cleaning and modeling to dashboard development
+and stakeholder reporting. Strong analytical foundation complemented by database and full stack development skills.
+
+WORK EXPERIENCE
+Business Intelligence Trainee ∙ Concentrix ∙ Amman, Jordan ∙ May 2023 to Oct 2023
+• Designed and maintained interactive Power BI dashboards and performance reports used directly by team leads to
+guide business decisions.
+• Cleaned, transformed, and modeled raw datasets using Power Query and DAX to support recurring reporting cycles
+across teams.
+• Built KPI cards, interactive charts, slicers, and filters to track key metrics and identify trends across reporting cycles.
+• Validated reporting outputs and maintained data accuracy and consistency while managing recurring reporting cycles
+independently.
+Design Intern ∙ INJAZ Al-Arab ∙ Amman, Jordan ∙ Sep 2024 to Nov 2024
+• Collaborated with a design team to develop visual materials aligned with brand guidelines, campaign requirements,
+and project objectives.
+Part-Time Tutor ∙ Pi Educational Center & Math Club ∙ Amman, Jordan ∙ Nov 2024 to Dec 2024
+• Delivered individual and small group tutoring sessions, adapting explanations to different learning needs and maintaining clear communication.
+Freelance Web Developer ∙ Self Employed ∙ Amman, Jordan (Remote) ∙ Jan 2025 to Present
+• Develop responsive, user focused web applications using React, JavaScript, HTML, CSS, Vite, and Supabase, translating client requirements into functional digital solutions.
+• Build and integrate database driven functionality using Supabase, supporting structured data management and application workflows.
+• Manage freelance projects independently from requirements gathering through development, testing, and delivery,
+ensuring functionality and alignment with client needs.
+
+EDUCATION
+Bachelor’s Degree in Business Information Systems ∙ Princess Sumaya University for Technology ∙ Amman,
+Jordan ∙ Oct 2022 to Present ∙ Grade: 87.2% – Honor List
+
+SKILLS
+• Business Intelligence & Analytics: Power BI, DAX, Power Query, Data Cleaning & Transformation, Data Modeling, Data Visualization, Dashboard Development, KPI Analysis & Reporting, Trend Analysis
+• Data & Databases: SQL, PostgreSQL, Database Design & Normalization, Supabase
+• Excel & Automation: Advanced Excel, Pivot Tables, VBA, Macros
+• Programming & Development: Python, Pandas, JavaScript, React, HTML, CSS
+• Tools: Git, GitHub
+• Business & Analytical Skills: Requirements Gathering, Data Driven Decision Making, Stakeholder Communication,
+Cross Functional Collaboration
+• Languages: Arabic (Native), English (Professional Working Proficiency), German (B1)
+
+PROJECTS
+Power BI Business Performance Dashboard ∙ Power BI, DAX, Power Query ∙ View Dashboard
+• Analyzed 129,880 customer survey responses, identifying a +24.1% CSAT variance across segments, and built KPI
+cards, slicers, and filters to track and compare performance trends.
+E-Commerce Data Analysis ∙ SQL, Python, Pandas ∙ View Repository
+• Analyzed 12,000+ e-commerce orders using SQL and Python to uncover revenue and customer trends.
+Urology Clinic Website ∙ React, Vite, Supabase ∙ View Website
+• Designed and deployed a bilingual (Arabic/English) production web application, connected to a live Supabase database
+handling real appointment records.
+
+CERTIFICATIONS & TRAINING
+• Data for Business Analysts Using Microsoft Excel – Microsoft via Coursera ∙ View Certificate
+• Understanding the Enterprise Systems Environment – SAP via Coursera ∙ View Certificate
+
+
