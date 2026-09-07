@@ -1,4 +1,15 @@
-# Chat with My CV — a RAG Demo
+<div align="center">
+
+<a href="https://github.com/layankhayyat04-ui/cv-rag-chatbot">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E86C1&center=true&vCenter=true&width=600&lines=Chat+with+My+CV;A+Retrieval-Augmented+Generation+(RAG)+Demo;Chunk+%E2%86%92+Embed+%E2%86%92+Retrieve+%E2%86%92+Answer" alt="Typing SVG" />
+</a>
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-vector%20database-FF6F00)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-TF--IDF%20fallback-F7931E?logo=scikit-learn&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+</div>
 
 A small Retrieval-Augmented Generation (RAG) project that lets you ask
 natural-language questions about a CV and get back the exact, grounded
@@ -13,6 +24,17 @@ database, and retrieving the most relevant piece of text for a question
 through semantic similarity search.
 
 ## How it works
+
+```mermaid
+flowchart LR
+    A[CV text] --> B[Chunk\noverlapping ~500-char pieces]
+    B --> C[Embed\nMiniLM via ONNX, or TF-IDF fallback]
+    C --> D[(ChromaDB\nvector store)]
+    E[User question] --> F[Embed question\nsame model]
+    F --> G[Similarity search]
+    D --> G
+    G --> H[Top matching chunk\nreturned as the answer]
+```
 
 1. **Load & chunk** — the CV text is split into overlapping ~500-character
    chunks (with a 100-character overlap so no sentence gets cut in half
@@ -71,3 +93,7 @@ Q: What Business Intelligence experience does this candidate have?
 - Swap the CV for any other document (notes, a report, a book chapter)
   by replacing `data/cv.txt`.
 - Add a simple web UI (Streamlit or Flask) on top of `answer_question()`.
+
+## License
+
+MIT
