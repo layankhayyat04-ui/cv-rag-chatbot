@@ -1,0 +1,49 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1B2A">
+        <animate attributeName="stop-color" values="#0D1B2A;#12283d;#0D1B2A" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#1B4965">
+        <animate attributeName="stop-color" values="#1B4965;#256088;#1B4965" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1000" height="220" fill="url(#bg)"/>
+
+  <g opacity="0.12">
+    <circle cx="60" cy="40" r="1.5" fill="#5FCBF5"/>
+    <circle cx="940" cy="180" r="1.5" fill="#5FCBF5"/>
+    <circle cx="920" cy="45" r="1.5" fill="#5FCBF5"/>
+  </g>
+
+  <g transform="translate(70,45)">
+    <rect x="0" y="0" width="90" height="120" rx="4" fill="#0D1117" stroke="#38BDF8" stroke-width="1.5" opacity="0.9"/>
+    <rect x="14" y="18" width="62" height="6" rx="2" fill="#3a4a5f"/>
+    <rect x="14" y="34" width="62" height="6" rx="2" fill="#3a4a5f"/>
+    <rect x="14" y="50" width="45" height="6" rx="2" fill="#38BDF8" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="14" y="66" width="62" height="6" rx="2" fill="#3a4a5f"/>
+    <rect x="14" y="82" width="30" height="6" rx="2" fill="#3a4a5f"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#5FCBF5" stroke-width="4">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M 115,90 L 165,70 L 115,110 L 165,90 Z"/>
+    </circle>
+    <line x1="14" y1="14" x2="26" y2="26" stroke="#5FCBF5" stroke-width="4" stroke-linecap="round">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M 115,90 L 165,70 L 115,110 L 165,90 Z"/>
+    </line>
+  </g>
+
+  <text x="230" y="90" font-family="Fira Code, monospace" font-size="32" font-weight="700" fill="#ffffff">CV RAG Chatbot</text>
+  <text x="230" y="125" font-family="Fira Code, monospace" font-size="16" fill="#5FCBF5">Ask questions. Retrieve grounded passages. No hallucinations.</text>
+  <rect x="230" y="140" width="0" height="3" rx="1.5" fill="#5FCBF5">
+    <animate attributeName="width" values="0;340;340" dur="1.4s" fill="freeze"/>
+  </rect>
+</svg>
