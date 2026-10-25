@@ -202,7 +202,7 @@ Ideas for a future version:
 
 <div align="center">
 
-**Built by [Layan Khayyat](https://github.com/layankhayyat04-ui)**
+**Built by [Layan Khayyat](https://layankhayyat.com)**
 
 Explore more: [BMS Dashboard](https://github.com/layankhayyat04-ui/bms-dashboard) · [E-commerce SQL & Python Analysis](https://github.com/layankhayyat04-ui/ecommerce-sql-python-analysis)
 
